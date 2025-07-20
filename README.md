@@ -34,12 +34,12 @@ results
  * my algorithm predicted correctly that the speaker is Nurse 2 with Confidence: 0.8915 (number between 0-1).
  * the probability vectors are:
 
-  - P(Nurse1|session)          → 0.154 
-  - P(Nurse2|session)          → 0.204 
-  - P(Nurse3|session)          → 0.153 
-  - P(Nurse4|session)          → 0.164 
-  - P(Nurse5|session)          → 0.172 
-  - P(Nurse6|session)          → 0.153 
+	  - P(Nurse1|session)          → 0.154 
+	  - P(Nurse2|session)          → 0.204 
+	  - P(Nurse3|session)          → 0.153 
+	  - P(Nurse4|session)          → 0.164 
+	  - P(Nurse5|session)          → 0.172 
+	  - P(Nurse6|session)          → 0.153 
 
 
 How to run
