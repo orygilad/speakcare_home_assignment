@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+
+# macOS & Windows
+.DS_Store
+Thumbs.db
+
+# Logs and data
+*.log
+*.sqlite
+*.db
+
+# Audio & Model outputs
+*.wav
+*.m4a
+*.pt
+*.pkl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
