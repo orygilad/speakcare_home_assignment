@@ -8,7 +8,7 @@ the model was trained on input segments of length 2-3 seconds at 16Khz sampling 
 
 decoding .m4a files
 -------------------
-the project decode the provided .m4a and converts them to .wav at the begining. the conversion is done by the pydub library.
+the project decode the provided .m4a files and converts them to .wav at the begining. the conversion is done by the pydub library.
 the initial sampling rate of the .m4a files is 44.1Khz. during the conversion a resampling to 16Khz is performed.
 
 Algorithmic pipeline
@@ -30,16 +30,16 @@ The process is as follows:
 
 results
 -------
-in the provided session, the speaker is Nurse 2 (by ear)
-my algorithm predicted correctly that the speaker is Nurse 2 with Confidence: 0.8915 (number between 0-1)
-the probability vectors are:
+ * in the provided session, the speaker is Nurse 2 (by ear).
+ * my algorithm predicted correctly that the speaker is Nurse 2 with Confidence: 0.8915 (number between 0-1).
+ * the probability vectors are:
 
-  - Nurse1          → 0.154 +- 0.01183381
-  - Nurse2          → 0.204 +- 0.01083766
-  - Nurse3          → 0.153 +- 0.00960425
-  - Nurse4          → 0.164 +- 0.00875090
-  - Nurse5          → 0.172 +- 0.01468099
-  - Nurse6          → 0.153 +- 0.00823377
+  - P(Nurse1|session)          → 0.154 
+  - P(Nurse2|session)          → 0.204 
+  - P(Nurse3|session)          → 0.153 
+  - P(Nurse4|session)          → 0.164 
+  - P(Nurse5|session)          → 0.172 
+  - P(Nurse6|session)          → 0.153 
 
 
 How to run
